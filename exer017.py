@@ -1,8 +1,8 @@
 #ler o comprim cateto oposto e cateto adjacente (triag. retang). Cal. e mostre o compr. da hipotenusa.
 
-print("=-"*20)
-print("            SEJA BEM VINDO!!")
-print("=-"*20)
+print("="*25)
+print('{:=^25}'.format('SEJA BEM VINDO!!'))
+print("="*25)
 from math import sqrt
 print("Insira o cateto oposto e adjacente para calcular a hipotenusa!")
 
