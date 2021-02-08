@@ -6,5 +6,8 @@ nomeCliente = input('Informe o nome do cliente: ')
 nomeCarro = input('Nome do carro augado:')
 diasAlugados = int(input('Quantos dias alugados? '))
 kmRodados = float(input('Quantos Km rodados? '))
+
 custoTotal = ((60 * diasAlugados) + (kmRodados * 0.15))
-print('O cliente {} por ter alugado o carro {} por {} dias pagará um valor de R${}'.format(nomeCliente,nomeCarro, diasAlugados, custoTotal))
+
+print('O cliente {} por ter alugado o carro {} por {} dias pagará '
+      'um valor de R${}'.format(nomeCliente,nomeCarro, diasAlugados, custoTotal))
