@@ -3,12 +3,12 @@
 print("="*25)
 print('{:=^25}'.format('SEJA BEM VINDO!!'))
 print("="*25)
-from math import sqrt
+import math
 print("Insira o cateto oposto e adjacente para calcular a hipotenusa!")
 
 catOposto = float(input('Digite o valor do cateto oposto: '))
 catAdjacente = float(input('Digite o valor do cateto adjacente: '))
-hipotenusa = (catOposto*catOposto)+(catAdjacente*catAdjacente)
-res = sqrt(hipotenusa)
-print('O valor da hipotenusa é {:.2}'.format(res))
+
+hipotenusa = math.hypot(catOposto, catAdjacente)
+print('O valor da hipotenusa é {:.2f}'.format(hipotenusa))
 print('ESPERO TER AJUDADO!')
