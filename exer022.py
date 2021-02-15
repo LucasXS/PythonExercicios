@@ -3,4 +3,5 @@
 nome = input('Informe o seu nome completo: ')
 print(nome.upper())
 print(len(nome))
+#print(nome[:])
 print(len('lucas'))
