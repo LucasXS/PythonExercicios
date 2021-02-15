@@ -1,5 +1,12 @@
 #ler um número de 0 a 9999 e mostre na tela cada um dos digitos separados
-#preciso corrigir
 
-n1 = input('Digite um número:').strip()
-print(f'Unidade:{n1[3]}\nDezena:{n1[2]:>2}\nCentena:{n1[1]}\nMilhar:{n1[0]:>2}')
+num = int(input('Informe um número: '))
+u = num // 1 % 10
+d = num // 10 % 10
+c = num // 100 % 10
+m = num // 1000 % 10
+print('Analisando o número...')
+print('UNIDADE: {}'.format(u))
+print('DEZENA: {}'.format(d))
+print('CENTENA: {}'.format(c))
+print('MILHAR: {}'.format(m))
