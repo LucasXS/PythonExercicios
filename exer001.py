@@ -1,4 +1,4 @@
 #PRIMEIRO PROGRAMA - MOSTRA OLÁ MUNDO NA TELA
 
-msg = 'Olá, Mundo!'
+msg = '\033[1;31mOlá, Mundo!\033[m'
 print(msg)

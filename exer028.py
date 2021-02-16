@@ -11,11 +11,11 @@ print('='*60)
 
 computador = randint(0, 5)
 jogador = int(input('NÚMERO: '))
-print('PROCESSANDO...')
+print('\033[1;36mPROCESSANDO...\033[m')
 sleep(1)
 
 if jogador == computador:
-    print('PARABÉNS! Você consegueiu me vencer')
+    print('\033[1;31mPARABÉNS!\033[m Você consegueiu me vencer')
 else:
-    print('GANHEI! Eu pensei no número {} e não no {}'.format(computador, jogador))
+    print('\033[1;31mGANHEI!\033[m Eu pensei no número \033[1:35m{}\033[m e não no \033[1;33m{}\033[m'.format(computador, jogador))
 print('OBRIGADO POR JOGAR')

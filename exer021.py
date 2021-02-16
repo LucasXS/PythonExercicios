@@ -6,4 +6,4 @@ pygame.mixer.init() #inicia
 pygame.mixer.music.load('exer021.mp3') #carrega a music
 pygame.mixer.music.play() #toca a musica
 
-input('Agora é só relaxar')
+input('\033[1;31mAGORA É SÓ RELAXAR!')
